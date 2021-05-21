@@ -18,12 +18,12 @@ const Card = () => {
     }
 
     return(
-        <div class="card">
-            <h5 class="card-header">Meu primeiro Card</h5>
-            <div class="card-body">
-                <h5 class="card-title">Card de manipulação de Estado</h5>
-                <p class="card-text">Clique nos Botões abaixo para adicionar um diminuir o valor.</p>
-                <p class="card-text">O valor nunca será negativo.</p>
+        <div className="card">
+            <h5 className="card-header">Meu primeiro Card</h5>
+            <div className="card-body">
+                <h5 className="card-title">Card de manipulação de Estado</h5>
+                <p className="card-text">Clique nos Botões abaixo para adicionar um diminuir o valor.</p>
+                <p className="card-text">O valor nunca será negativo.</p>
                 <p>{value}</p>
                 <Buttom 
                     className="btn btn-success" 

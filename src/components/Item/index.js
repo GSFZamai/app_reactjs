@@ -1,6 +1,6 @@
 const Item = ( {children} ) => {
     return(
-        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">
+        <a href="#" className="list-group-item list-group-item-action list-group-item-dark">
             {children}
         </a>
     )
